@@ -8,11 +8,14 @@ This version is written in ASP.NET Core 3.1 to support Linux and Mac OS.
 
 Since I don't have a Mac OS below I am providing information for building the build for Mac OS:
 https://youtu.be/pat0Yqpwx3E
+
 https://docs.microsoft.com/en-us/dotnet/core/tutorials/with-visual-studio-mac
 
 Also if you need a build for Linux build information:
 https://youtu.be/TL5eJtXWP10
+
 https://youtu.be/lR2Vfp2d2kY
+
 https://docs.microsoft.com/en-us/dotnet/core/install/linux-ubuntu
 
 # HOW TO DOWNLOAD BUILDS 
