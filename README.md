@@ -31,3 +31,11 @@ You can download the finished version by going to the releases section and downl
 
 Next, unpack the archive and use the instructions to run it on your operating system attached above.
 
+
+# HOW TO USE PROXY
+
+I recently added the ability to use proxies. 
+The proxies are in the file "proxy.txt", I provided 40k proxy servers which were obtained through my ProxyGrabber (https://github.com/H4CK3ROFF/ProxyGrabber).
+
+These proxies may be out of date and may not work, therefore it is better to use your own private proxies, or update often Proxy but newer ones.
+You can get proxies through my ProxyGrabber (https://github.com/H4CK3ROFF/ProxyGrabber) or any other site or grabber at your discretion.
