@@ -6,6 +6,9 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Update="proxy.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
     <None Update="sites.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
