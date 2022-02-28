@@ -51,7 +51,8 @@ namespace NOWARASPNET
                 Random random = new Random();
                 string[] proxys = File.ReadAllLines(Environment.CurrentDirectory.ToString() + "\\proxy.txt");
 
-                Console.WriteLine("Work with Proxy servers!");
+                Console.WriteLine($"Work with Proxy servers! \nTotal Proxys: {proxys.Length}");
+                
                 while (true)
                 {
                     await Task.Run(() => Parallel.ForEach(sites, new ParallelOptions { MaxDegreeOfParallelism = threads }, site =>
