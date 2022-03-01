@@ -39,3 +39,13 @@ The proxies are in the file "proxy.txt", I provided 40k proxy servers which were
 
 These proxies may be out of date and may not work, therefore it is better to use your own private proxies, or update often Proxy but newer ones.
 You can get proxies through my ProxyGrabber (https://github.com/H4CK3ROFF/ProxyGrabber) or any other site or grabber at your discretion.
+
+
+# HIGH LOAD AND CRASHES
+
+Due to the fact that I received questions about the load on the RAM and CPU, I will answer here in this message. 
+A multi-threaded DDOS attack is quite a resource-intensive task, using more threads will put more load on your CPU. 
+RAM in turn is not controlled in C#, all variables created inside the program are cleared by JIT compiler C# itself at runtime, I can't control DRAM consumption in any way. Maximum peaked RAM consumption in my tests was 500 mb, on average it did not exceed 300 mb. It depends solely on your system and the garbage collector which is responsible for DRAM cleaning.
+
+As were statements about the crashes, I have a few hours of such crashes have not been detected, on this I added a system of logging and automatic restart when Exception. If you will have crashes in the folder with the program you will have a file "program.log" in the presence of such can contact me by throwing this file, I will look at what may be the problem. 
+
